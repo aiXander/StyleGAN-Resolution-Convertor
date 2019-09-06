@@ -1,6 +1,10 @@
 # StyleGAN-Resolution-Convertor
 A Google Colab notebook to convert your low-resolution StyleGAN models into higher-resolution checkpoints so you can continue training!
 
+---> Just checkout the notebook for all details: 
+
+https://github.com/tr1pzz/StyleGAN-Resolution-Convertor/blob/master/StyleGAN_resolution_conversion.ipynb
+
 ## Once you set the image resolution in train.py, this choice is hard-baked into the computation graph...
 Nvidia's StyleGAN models are pretty great, and training your own models is a lot of fun.
 Unfortunately the way the training code is set up, you have to specify the final image resolution before you start training.
