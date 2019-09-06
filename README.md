@@ -10,8 +10,7 @@ Even though StyleGAN uses progressive layer growing, if you trained a StyleGAN a
 start finetuning it towards eg 1024 resolution because the variable names in the computation graph are different.
 
 ## Work-around by editing variable dicts
-This simply script loads a small StyleGAN model and changes to variable dict so that the weights can be copied into a larger model for finetuning 
-towards a higher resolution.
+This simply script loads a small StyleGAN model and changes the variable dict so that the weights can be copied into a larger model for finetuning towards a higher resolution.
 
 ## There are two options:
   1. Set a target resolution (eg 1024) and initialize a target network from scratch using random initialization
